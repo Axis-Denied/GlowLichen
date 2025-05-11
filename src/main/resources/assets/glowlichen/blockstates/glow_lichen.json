@@ -1,0 +1,90 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "texture": "glowlichen:blocks/glow_lichen"
+    },
+    "model": "glowlichen:empty",
+    "uvlock": true
+  },
+  "variants": {
+    "up": {
+      "true": {
+        "submodel": {
+          "umod": {
+            "model": "glowlichen:glow_lichen",
+            "x": 270,
+            "uvlock": true
+          }
+        }
+      },
+      "false": {
+      }
+    },
+    "north": {
+      "true": {
+        "submodel": {
+          "nmod": {
+            "model": "glowlichen:glow_lichen",
+            "uvlock": true
+          }
+
+        }
+      },
+      "false": {
+      }
+    },
+    "west": {
+      "true": {
+        "submodel": {
+          "wmod": {
+            "model": "glowlichen:glow_lichen",
+            "y": 270,
+            "uvlock": true
+          }
+        }
+      },
+      "false": {
+      }
+    },
+    "south": {
+      "true": {
+        "submodel": {
+          "smod": {
+            "model": "glowlichen:glow_lichen",
+            "y": 180,
+            "uvlock": true
+          }
+        }
+      },
+      "false": {
+      }
+    },
+    "east": {
+      "true": {
+        "submodel": {
+          "emod": {
+            "model": "glowlichen:glow_lichen",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      },
+      "false": {
+      }
+    },
+    "down": {
+      "true": {
+        "submodel": {
+          "dmod": {
+            "model": "glowlichen:glow_lichen",
+            "x": 90,
+            "uvlock": true
+          }
+        }
+      },
+      "false": {
+      }
+    }
+  }
+}

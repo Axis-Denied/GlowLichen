@@ -13,7 +13,6 @@ public class EntityMobMixin {
 
     @ModifyExpressionValue(method="isValidLightLevel", at= @At(value = "CONSTANT", args = "intValue=8"))
     public int glowlichen$isValidLightLevel(int original, @Local(name="i") int i){
-        System.out.println("Calculated light level: "+i);
         if(GlowLichenConfig.modifyLightLevel < 0) return original;
         return GlowLichenConfig.modifyLightLevel+1;
     }

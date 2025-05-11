@@ -1,6 +1,6 @@
 {
 	"package": "com.roguetictac.glowlichen.mixin",
-	"required": true,
+	"required": false,
 	"refmap": "mixins.glowlichen.refmap.json",
 	"target": "@env(DEFAULT)",
 	"minVersion": "0.8.5",

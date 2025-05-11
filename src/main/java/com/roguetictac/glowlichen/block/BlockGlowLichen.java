@@ -506,7 +506,7 @@ public class BlockGlowLichen extends Block implements net.minecraftforge.common.
         ArrayList<EnumFacing> possible = Lists.newArrayList(EnumFacing.VALUES);
         EnumFacing firstFacing = getFirstFacing(state);
         possible.remove(firstFacing.getOpposite());
-        spreadFromFaceTowardRandomDirection(worldIn, pos.offset(firstFacing), rand, possible, 1);
+        spreadFromFaceTowardRandomDirection(worldIn, pos.offset(firstFacing.getOpposite()), rand, possible, 1);
     }
 
     private EnumFacing getFirstFacing(IBlockState state) {

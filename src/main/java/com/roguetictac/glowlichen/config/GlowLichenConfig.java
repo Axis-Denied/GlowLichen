@@ -8,7 +8,7 @@ public class GlowLichenConfig {
 
     @Config.Name("Spawning Light Level")
     @Config.Comment("The new maximum light level for spawning. Use -1 to indicate no change")
-    public static int modifyLightLevel = 0;
+    public static int modifyLightLevel = -1;
 
 
     @Config.Name("Chunk Spawn Attempts")
